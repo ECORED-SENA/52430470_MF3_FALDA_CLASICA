@@ -1,0 +1,122 @@
+include ../mixins/functions
+
++pageHeader('Titulo del Tema', 'assets/images/header/header_media.svg')
+
+.container
+
+    .header-ecored
+        h2#tema-13 1.3 Tipos de agujas y forma de enhebrarlas
+
+    p La selección de la aguja de la máquina industrial para coser la prenda, se realiza de acuerdo a la máquina que se va a utilizar, ya que dependiendo la marca y de la referencia es diferente. Sin embargo, es posible definir el grosor de la parte inferior de la aguja y la punta.
+
+    .subtitulo-ecored.mb-1
+        h3
+            span.number A
+            span Tipos de agujas
+
+    p Las agujas se identifican con un número mayor cuando se habla de la medida europea y un número menor con la medida americana. Los números pequeños se asocian a las agujas más finas y se utilizan para las telas más finas. Los números grandes se utilizan para las telas más gruesas.
+
+    p A continuación se relaciona el número de la aguja con la recomendación del tejido a usar, así: 
+
+    table.table.table-bordered.table-striped.my-5
+        thead.thead-orange
+            tr
+                th.text-center No. Aguja
+                th.text-center Recomendación tejido a usar
+
+        tbody
+            tr 
+                td.text-left 60 (EU) / 8 (USA): Es la aguja más fina del mercado
+                td.text-left Se utiliza para telas finas y delicadas (Ej: seda)
+            tr 
+                td.text-left Desde 65/9  hasta 70/10:
+                td.text-left Tejidos con poco espesor (Ej: algodón)
+            tr 
+                td.text-left Desde 75/11 hasta 90/14:
+                td.text-left Tejidos de espesor medio
+            tr 
+                td.text-left 100/16
+                td.text-left Tejidos gruesos
+            tr 
+                td.text-left 110/18
+                td.text-left  Se usa para telas (Ej: tapicerías)
+            tr 
+                td.text-left 120/20
+                td.text-left Lona gruesa
+
+    .header-arrow.my-5
+        h2.text-center.base-light-font-weight.text-light.mb-1.letter-spacing-1x Con base en la tabla, es posible seleccionar la aguja adecuada, teniendo en cuenta los tipos de aguja que se muestran a continuación:
+
+ 
+    p.text-center
+        img(src="assets/images/pages/tema-1/agujas.svg").img-fluid
+
+    .row.justify-content-between.align-items-start.mt-5
+        .col-12.col-lg-6
+            p.header-step
+                span.header-step-title
+                    strong FINA - SPI 
+                    p Se suele usar para tejidos gruesos ya que puede perforarlos, logrando así unas puntadas precisas. Ej: Gorras , correas.
+            hr
+            p.header-step
+                span.header-step-title
+                    strong BOLA NORMAL - NB
+                    p Recomendada para tejidos con poca elasticidad y no muy gruesos. Ej: Camisetas, polos, mantas.
+
+            hr
+
+            p.header-step
+                span.header-step-title
+                    strong BOLA PEQUEÑA - SES
+                    p Para tejidos y géneros de punto, es la que menos daño produce en las fibras. Ej: Generosa de punto general.
+            hr
+
+        .col-12.col-lg-6            
+            p.header-step
+                span.header-step-title
+                    strong BOLA MEDIANA - SUK
+                    p Para tejidos elásticos o con elastómeros, porque no perforan las fibras, las desplazan a un lado. Ej: Trajes de baño
+            hr      
+            p.header-step
+                span.header-step-title
+                    strong BOLA ESPECIAL - SKL
+                    p Para tejidos elásticos o con elastómeros, porque no perforan las fibras, las desplazan a un lado. Ej: Lencería 
+            hr                  
+            p.header-step
+                span.header-step-title
+                    strong BOLA GRANDE - SKF
+                    p Para tejidos elásticos con estructuras muy gruesas y abiertas. Ej: Jerseys
+            hr                  
+
+    .subtitulo-ecored.mb-1
+        h3
+            span.number B
+            span Enhebrar máquinas plana y fileteadora
+
+
+    p Enhebrar la aguja es la primera tarea que debe realizarse y se debe hacer de manera correcta para lograr una costura exitosa.   A continuación se describe esta actividad tanto para la máquina plana, como para la fileteadora, así: 
+
+    h3.my-4 Máquina plana
+
+    p Al realizar el enhebrado  se debe tener en cuenta que no todas las máquinas se enhebran de la misma forma. Es por ello que cada máquina trae un mapa de enhebrado impreso en la máquina o en el manual de instrucciones.
+
+    p Para hacer un acercamiento a una máquina genérica, se puede tener en cuenta la siguiente imagen.
+
+    .card        
+        img(src="assets/images/pages/tema-1/maquinaplana.svg").img-fluid
+        .card-body
+            p.card-text.text-center Enhebrado máquina plana, tomado de <a href="http://enhebradomaquinadecoser.blogspot.com/" target="_blank">http://enhebradomaquinadecoser.blogspot.com/</a>
+
+
+
+    p Para la caja bobina de la máquina, que va en la parte inferior de la máquina, se debe introducir el carrete y el hilo debe quedar en el orificio de la caja bobina, antes de introducirla en la porta caja bobina o <strong>gancho rotatorio</strong>. Para mayor claridad en este paso, se recomienda consultar el siguiente video: <strong>Alistamiento de máquina plana</strong>. 
+
+    .embed-responsive.embed-responsive-16by9.my-5
+        iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/YntKFwKopvQ', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+
+    h3.my-4 Máquina fileteadora
+
+    p La máquina fileteadora o sobrehiladora, es la que se encarga de hacer los bordes en las uniones de las piezas, el alistamiento y enhebrado va de acuerdo a la marca de la máquina. Cabe anotar que no todas las marcas tienen el mismo sistema de enhebrado, sin embargo siempre llevan el mapa de puntos por donde se deben pasar los hilos para cada luper. 
+
+    p.text-center.my-5
+        img(src="assets/images/pages/tema-1/overlock.jpg").img-fluid    

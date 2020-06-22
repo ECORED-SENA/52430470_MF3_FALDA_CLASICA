@@ -1,0 +1,85 @@
+include ../mixins/functions
+
++pageHeader('Titulo del Tema', 'assets/images/header/header_media.svg')
+
+.container
+
+    .header-ecored
+        h1 
+            span.number 2. 
+            span Seguridad en el trabajo   
+
+
+    p En la confección de prendas de vestir, al igual que otros procesos industriales, se puede considerar un trabajo que conlleva riesgos para la integridad física. Es importante que los empleadores y los trabajadores estén conscientes de los peligros asociados con la confección de prendas de vestir para evitar enfermedades y lesiones relacionadas con el trabajo.
+
+    p En el mercado, hay varios tipos de máquinas que se usan en la industria de la confección. <i>“Algunas máquinas se usan para coser o cortar patrones y telas: algunas planchan con o sin vapor: y otras transportan las prendas de vestir a lo largo del taller. Pero antes de que comience el trabajo en cualquier maquinaria, el operador deberá conocer el manejo de la seguridad en su operación, así como en todos los procedimientos de seguridad que se deben observar. Y deben entender lo importante que es que los resguardos permanezcan en su lugar para evitar un arranque accidental, puntos donde pueden quedar atrapadas partes del cuerpo o que puedan amputar extremidades”.</i> (State compensation Insurance Fund. (2014). Disponible en <a href="https://content.statefundca.com/safety/safetymeeting/SafetyMeetingArticle.aspx?ArticleID=194" target="_blank">https://content.statefundca.com/safety/safetymeeting/SafetyMeetingArticle.aspx?ArticleID=194</a>
+
+   
+
+
+    .header-ecored
+        h2#tema-21 2.1 Medidas de seguridad
+
+
+    p Los elementos de seguridad pueden variar de acuerdo a la actividad que se realiza. A continuación presentamos algunos ejemplos y cuáles son las medidas que se deben de tomar en dichos casos.  
+
+        
+    #sliderPatronaje.carousel.slide(data-ride='carousel').my-5
+        ol.carousel-indicators
+            li.active(data-target='#sliderPatronaje', data-slide-to='0')
+            li(data-target='#sliderPatronaje', data-slide-to='1')
+            li(data-target='#sliderPatronaje', data-slide-to='2')
+            li(data-target='#sliderPatronaje', data-slide-to='3')
+
+        .carousel-inner
+            .carousel-item.active     
+                img.d-block.w-100(src='assets/images/pages/tema-2/slide/bgAmarillo.svg')           
+                .carousel-caption
+                    .row.justify-content-center.align-items-center
+                        .col-8.col-md-4
+                            figure
+                                img(src="assets/images/pages/tema-2/slide/guantes.jpg").img-fluid
+                        .col-8.col-md-4
+                            h3.text-brand-color-light Protección uso de herramientas de corte y/o las agujas de coser:
+                            p Debido a que las agujas pueden producir pinchazos y causar heridas profundas, se recomienda transportarlas y almacenarlas de manera segura. De igual forma mantenerlas lejos del cuerpo y de los ojos y en lo posible usar guantes de protección. En máquinas de coser, se debe verificar que cuenten con los resguardos correspondientes.
+
+            .carousel-item
+                img.d-block.w-100(src='assets/images/pages/tema-2/slide/bgAmarillo.svg', alt='...')           
+                .carousel-caption
+                    .row.justify-content-center.align-items-center
+                        .col-8.col-md-4
+                            figure
+                                img(src="assets/images/pages/tema-2/slide/tapabocas.jpg").img-fluid
+                        .col-8.col-md-4
+                            h3.text-brand-color-light Protección para la respiración:
+                            p Para proteger a los trabajadores durante los procesos de ensamble en los que se desprenden micro partículas de los textiles, que son imperceptibles incluso ante la vista, como también los mismos pasos de seguridad se deben tomar para trabajadores que manejan materiales terminados y que pueden resultar expuestos a un exceso de sustancias químicas o gases que se despiden. Los trabajadores deberán tener acceso a tapabocas industriales, que minimicen el impacto en la salud.
+            .carousel-item
+                img.d-block.w-100(src='assets/images/pages/tema-2/slide/bgAmarillo.svg', alt='...')           
+                .carousel-caption
+                    .row.justify-content-center.align-items-center
+                        .col-8.col-md-4
+                            figure
+                                img(src="assets/images/pages/tema-2/slide/gafas.jpg").img-fluid
+                        .col-8.col-md-4
+                            h3.text-brand-color-light Protección para los ojos:
+                            p Para evitar lesiones en los ojos se recomienda el uso de gafas de seguridad.  Igualmente se debe verificar la iluminación en los ambientes de trabajo para evitar el cansancio visual.
+
+
+            .carousel-item
+                img.d-block.w-100(src='assets/images/pages/tema-2/slide/bgAmarillo.svg', alt='...')           
+                .carousel-caption
+                    .row.justify-content-center.align-items-center
+                        .col-8.col-md-4
+                            figure
+                                img(src="assets/images/pages/tema-2/slide/p_oidos.jpg").img-fluid
+                        .col-8.col-md-4
+                            h3.text-brand-color-light Protección para los oídos:
+                            p Si la cantidad de máquinas o la máquina usada genera altos niveles de ruido, se deben usar tapa oídos, para prevenir lesiones o enfermedades auditivas.
+        
+
+        a.carousel-control-prev(href='#sliderPatronaje', role='button', data-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.sr-only Previous
+        a.carousel-control-next(href='#sliderPatronaje', role='button', data-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.sr-only Next

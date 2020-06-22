@@ -1,0 +1,73 @@
+[
+  {
+    "letter": "B",
+    "terms": [
+      {
+        "title": "Borde",
+        "desciption": "Orilla de la tela."
+      },
+      {
+        "title": "Botones",
+        "desciption": "elemento utilizado para cerrar o abrochar partes o para adornar prendas de vestir."
+      },
+      {
+        "title": "Broches",
+        "desciption": "se compone de dos partes que ajustados cierran la prenda."
+      }
+    ]
+  },
+  {
+    "letter": "C",
+    "terms": [
+      {
+        "title": "Cremallera",
+        "desciption": "sistema de cierre usado en indumentaria y accesorios, que tiene un mecanismo similar al de los piñones que se fijan por acomodación."
+      }
+    ]
+  }, 
+  {
+    "letter": "F",
+    "terms": [
+      {
+        "title": "Filetear",
+        "desciption": "generalmente se denomina remate de bordes, evitando el deshile de los materiales."
+      }
+    ]
+  },
+  {
+    "letter": "O",
+    "terms": [
+      {
+        "title": "Orillo",
+        "desciption": "bordes de los materiales."
+      }
+    ]
+  },
+  {
+    "letter": "P",
+    "terms": [
+      {
+        "title": "Pie de prensatela",
+        "desciption": "permite sostener el material cuando se cose la prenda."
+      }
+    ]
+  },
+  {
+    "letter": "R",
+    "terms": [
+      {
+        "title": "Rematar",
+        "desciption": "se usa para reforzar una costura.  Generalmente cosiendo adelante y atrás."
+      }
+    ]
+  },
+  {
+    "letter": "T",
+    "terms": [
+      {
+        "title": "Tornillo regulador de presión del prensatela",
+        "desciption": "pieza del cabezote de la máquina de coser que ejerce presión para prensar la tela."
+      }
+    ]
+  }    
+]

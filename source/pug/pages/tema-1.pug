@@ -1,0 +1,137 @@
+include ../mixins/functions
+
++pageHeader('Titulo del Tema', 'assets/images/header/header_media.svg')
+
+.container
+
+    .header-ecored
+        h1 
+            span.number 1. 
+            span Alistamiento de maquinaria cumpliendo normas de seguridad    
+
+
+    p El alistamiento es el proceso previo a la acción de elaborar la prenda, es importante alistar tanto las piezas que hacen parte de la prenda, como la maquinaria requerida para su elaboración. 
+
+    .subtitulo-ecored.mb-1
+        h2
+            span.number A
+            span Materia Prima
+
+    p Se considera materia prima a todos los materiales e insumos que se requieren para armar una prenda. La materia prima para elaborar la falda clásica, consta de los siguientes elementos, adicional se relacionan la preparación que se debe manejar y las indicaciones en cada uno de ellos: 
+
+    h3 Fusionados   
+
+    p En la elaboración de la falda, es necesario fusionar la pretina, ya que al momento de ponerla, esta debe quedar perfectamente bien  derecha. Para ello se debe cortar la misma pieza de la pretina, descontando las adiciones de costura por los bordes y el doblez. Ver Figura:
+        
+    p.text-center.my-5.py-5
+        img(src="assets/images/pages/tema-1/fusionados.svg").img-fluid         
+
+    h3 Preformados con calor   
+
+    p En centro atrás de la falda, lleva el sistema de cierre o la cremallera. Ver figura 2.  Como la adición de costura que se dio al patrón por el centro atrás, para colocar la cremallera es de 2cm, se debe preformar con la plancha el doblez de los 2 cm.
+
+    p.text-center.my-5.py-5
+        img(src="assets/images/pages/tema-1/preformados.svg").img-fluid      
+        
+     
+    .subtitulo-ecored.mb-1
+        h2
+            span.number B
+            span Alistar insumos y utensilios de confección
+
+    p Los insumos son todos aquellos elementos no textiles que se integran en la prenda terminada,  ya sea para sistema de cierre o simplemente para decoración, tales como botones, cremalleras o placas. 
+
+    .header-arrow.my-5
+        h2.text-center.base-light-font-weight.text-light.mb-1.letter-spacing-1x Dentro de este paso en el alistamiento, se deben tener en cuenta los utensilios o elementos de costura necesarios para realizar la confección. Estos son:
+
+        
+    #sliderPatronaje.carousel.slide(data-ride='carousel')
+        ol.carousel-indicators
+            li.active(data-target='#sliderPatronaje', data-slide-to='0')
+            li(data-target='#sliderPatronaje', data-slide-to='1')
+            li(data-target='#sliderPatronaje', data-slide-to='2')
+            li(data-target='#sliderPatronaje', data-slide-to='3')
+            li(data-target='#sliderPatronaje', data-slide-to='4')
+            li(data-target='#sliderPatronaje', data-slide-to='5')
+        .carousel-inner
+            .carousel-item.active     
+                img.d-block.w-100(src='assets/images/pages/tema-1/slide/bgAmarillo.svg')           
+                .carousel-caption
+                    .row.justify-content-center.align-items-center
+                        .col-8.col-md-4
+                            figure
+                                img(src="assets/images/pages/tema-1/slide/tijeras.png").img-fluid
+                        .col-8.col-md-4
+                            h3.text-brand-color-light Tijeras de tela
+                            p Son necesarias para realizar piquetes y cortes adicionales.
+
+            .carousel-item
+                img.d-block.w-100(src='assets/images/pages/tema-1/slide/bgAmarillo.svg', alt='...')           
+                .carousel-caption
+                    .row.justify-content-center.align-items-center
+                        .col-8.col-md-4
+                            figure
+                                img(src="assets/images/pages/tema-1/slide/rematadores.png").img-fluid
+                        .col-8.col-md-4
+                            h3.text-brand-color-light Rematadores de mano
+                            p Son indispensables para retirar los excesos de hebras.
+            .carousel-item
+                img.d-block.w-100(src='assets/images/pages/tema-1/slide/bgAmarillo.svg', alt='...')           
+                .carousel-caption
+                    .row.justify-content-center.align-items-center
+                        .col-8.col-md-4
+                            figure
+                                img(src="assets/images/pages/tema-1/slide/hilos.png").img-fluid
+                        .col-8.col-md-4
+                            h3.text-brand-color-light Hilos e hilazas
+                            p Se recomienda que los hilos con los que se va a confeccionar la prenda, tanto interna como externamente, sean al tono del material textil, en su defecto si son telas estampadas o a cuadros, al tono más predominante de la tela.
+
+
+            .carousel-item
+                img.d-block.w-100(src='assets/images/pages/tema-1/slide/bgAmarillo.svg', alt='...')           
+                .carousel-caption
+                    .row.justify-content-center.align-items-center
+                        .col-8.col-md-4
+                            figure
+                                img(src="assets/images/pages/tema-1/slide/cremalleras.png").img-fluid
+                        .col-8.col-md-4
+                            h3.text-brand-color-light Cremallera
+                            p Al igual que los hilos, es recomendable que el cierre sea del mismo tono de la tela. La dimensión de la cremallera puede variar de 15 a 20 cm.
+        
+            .carousel-item
+                img.d-block.w-100(src='assets/images/pages/tema-1/slide/bgAmarillo.svg', alt='...')           
+                .carousel-caption
+                    .row.justify-content-center.align-items-center
+                        .col-8.col-md-4
+                            figure
+                                img(src="assets/images/pages/tema-1/slide/alfileres.png").img-fluid
+                        .col-8.col-md-4
+                            h3.text-brand-color-light Alfileres
+                            p Estos elementos puntiagudos, son necesarios para fijar las piezas y evitar que se corran al tiempo de confeccionar.
+
+
+            .carousel-item
+                img.d-block.w-100(src='assets/images/pages/tema-1/slide/bgAmarillo.svg', alt='...')           
+                .carousel-caption
+                    .row.justify-content-center.align-items-center
+                        .col-8.col-md-4
+                            figure
+                                img(src="assets/images/pages/tema-1/slide/botones.png").img-fluid
+                        .col-8.col-md-4
+                            h3.text-brand-color-light Botones
+                            p Cuando la pretina está terminada, se procede a elaborar el ojal y fijar el botón.   Los botones se pueden reemplazar con cierres de metal (broches), que son más discretos y quedan al interior de la prenda, por lo tanto no son visibles.
+
+
+
+        a.carousel-control-prev(href='#sliderPatronaje', role='button', data-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.sr-only Previous
+        a.carousel-control-next(href='#sliderPatronaje', role='button', data-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.sr-only Next
+
+
+                
+                       
+
+
